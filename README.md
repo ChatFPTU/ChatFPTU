@@ -1,12 +1,12 @@
 # ChatFPTU
 
-A multi-platform project for FPT University, including data processing utilities, Android app, and educational resources.
+Dify chatbot to help future and new FPTU students
 
 ## Project Structure
 
 ```
 .
-├── app.py                  # Main Python application
+├── app.py                  # Python API Server
 ├── Dockerfile              # Docker configuration
 ├── requirements.txt        # Python dependencies
 ├── paper.tex               # LaTeX paper
@@ -18,16 +18,17 @@ A multi-platform project for FPT University, including data processing utilities
 
 ## Getting Started
 
-### Python Utilities
+```sh
+git clone https://github.com/ChatFPTU/ChatFPTU.git
+```
 
-1. Install dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
-2. Run the main app:
-    ```sh
-    python app.py
-    ```
+### API Server
+
+The easiest way is to use Docker:
+```sh
+docker build -t ChatFPTU .
+docker run -it --rm ChatFPTU
+```
 
 ### Android App
 
@@ -48,7 +49,3 @@ A multi-platform project for FPT University, including data processing utilities
 ## Utilities
 
 - Jupyter notebooks for data processing are in `utils/`.
-
-## License
-
-MIT License (add your license here)
