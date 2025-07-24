@@ -1,6 +1,11 @@
 # ChatFPTU
+<div align="center">
+<img src="data/img/chatfptu.png" alt="ChatFPTU Logo" width="150" />
 
 Dify chatbot to help future and new FPTU students
+
+<img src=".github/Screenshot 2025-07-25 at 01-20-09 .png">
+</div>
 
 ## Project Structure
 

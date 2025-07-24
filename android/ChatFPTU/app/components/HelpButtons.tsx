@@ -9,7 +9,7 @@ interface HelpButtonProps {
 const HelpButtons = ({ setInputText }: HelpButtonProps) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>What can I help with?</Text>
+            <Text style={styles.title}>What can I help you with?</Text>
             <View style={styles.buttonContainer}>
                 <Button
                     icon="office-building-marker-outline"
