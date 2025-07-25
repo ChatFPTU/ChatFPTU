@@ -54,3 +54,5 @@ docker run -it --rm ChatFPTU
 ## Utilities
 
 - Jupyter notebooks for data processing are in `utils/`.
+
+<img src=".github/ChatFPTU_staging.png" alt="Workflow">
